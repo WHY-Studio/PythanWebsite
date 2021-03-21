@@ -1,0 +1,58 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   "
+    ],
+    "directory": "www-python-org-4dflvjhi",
+    "options": {
+        "url": "https://www.python.org/",
+        "index": "index.html",
+        "domain": "www.python.org",
+        "origin": "https://www.python.org",
+        "ipaddress": "151.101.108.223",
+        "originURL": "https://www.python.org/",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://xxx.com/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "connection": "close",
+                "content-length": "50809",
+                "server": "nginx",
+                "content-type": "text/html; charset=utf-8",
+                "x-frame-options": "DENY",
+                "via": "1.1 vegur, 1.1 varnish, 1.1 varnish",
+                "accept-ranges": "bytes",
+                "date": "Sun, 21 Mar 2021 08:28:43 GMT",
+                "age": "3552",
+                "x-served-by": "cache-bwi5127-BWI, cache-tyo11950-TYO",
+                "x-cache": "HIT, HIT",
+                "x-cache-hits": "2, 3333",
+                "x-timer": "S1616315324.789988,VS0,VE0",
+                "vary": "Cookie",
+                "strict-transport-security": "max-age=63072000; includeSubDomains"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1616315323718,
+        "end": 1616315324716,
+        "spend": 0.998
+    }
+}

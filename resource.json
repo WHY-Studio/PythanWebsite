@@ -1,0 +1,232 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://www.python.org/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://www.python.org/static/img/python-logo.png",
+                    "path": "images/python-logo.png"
+                },
+                {
+                    "url": "https://www.python.org/static/js/libs/modernizr.js",
+                    "path": "js/modernizr.js"
+                },
+                {
+                    "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js",
+                    "path": "js/jquery.min.js"
+                },
+                {
+                    "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js",
+                    "path": "js/jquery-ui.min.js"
+                },
+                {
+                    "url": "https://www.python.org/static/js/libs/masonry.pkgd.min.js",
+                    "path": "js/masonry.pkgd.min.js"
+                },
+                {
+                    "url": "https://www.python.org/static/js/libs/html-includes.js",
+                    "path": "js/html-includes.js"
+                },
+                {
+                    "url": "https://www.python.org/static/js/main-min.35a45664b78f.js",
+                    "path": "js/main-min.35a45664b78f.js"
+                },
+                {
+                    "url": "https://www.python.org/static/stylesheets/style.b50cef9e3bb9.css",
+                    "path": "css/style.b50cef9e3bb9.css",
+                    "children": [
+                        {
+                            "url": "https://www.python.org/static/img/success-glow2.8a25c357ade6.png?1576869008",
+                            "path": "images/success-glow2.8a25c357ade6.png"
+                        },
+                        {
+                            "url": "https://www.python.org/static/img/python-logo_print.7ec0f3c85735.png?1576869008",
+                            "path": "images/python-logo_print.7ec0f3c85735.png"
+                        },
+                        {
+                            "url": "https://www.python.org/static/img/psf-logo_print.33d5612b06d3.png?1576869008",
+                            "path": "images/psf-logo_print.33d5612b06d3.png"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/Pythonicon.29786ee4711a.eot",
+                            "path": "fonts/Pythonicon.29786ee4711a.eot"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/FluxRegular.076154ae2009.eot",
+                            "path": "fonts/FluxRegular.076154ae2009.eot"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/FluxRegular.f5549a4fe75f.woff",
+                            "path": "fonts/FluxRegular.f5549a4fe75f.woff"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/FluxBold.751b8c492c5e.eot",
+                            "path": "fonts/FluxBold.751b8c492c5e.eot"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/FluxBold.3fd71a747d5c.woff",
+                            "path": "fonts/FluxBold.3fd71a747d5c.woff"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Regular-webfont.a08bd5dd820c.eot",
+                            "path": "fonts/SourceSansPro-Regular-webfont.a08bd5dd820c.eot"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Regular-webfont.fd0d51605201.woff",
+                            "path": "fonts/SourceSansPro-Regular-webfont.fd0d51605201.woff"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Regular-webfont.185ff557118a.ttf",
+                            "path": "fonts/SourceSansPro-Regular-webfont.185ff557118a.ttf"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Regular-webfont.78fc0a3c105e.svg#source_sans_proregular",
+                            "path": "images/SourceSansPro-Regular-webfont.78fc0a3c105e.svg"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Bold-webfont.5eb84e881059.eot",
+                            "path": "fonts/SourceSansPro-Bold-webfont.5eb84e881059.eot"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Bold-webfont.be855452e565.woff",
+                            "path": "fonts/SourceSansPro-Bold-webfont.be855452e565.woff"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Bold-webfont.20175f77d5d1.ttf",
+                            "path": "fonts/SourceSansPro-Bold-webfont.20175f77d5d1.ttf"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-Bold-webfont.a569314f9f19.svg#source_sans_probold",
+                            "path": "images/SourceSansPro-Bold-webfont.a569314f9f19.svg"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-It-webfont.fe5d60783481.eot",
+                            "path": "fonts/SourceSansPro-It-webfont.fe5d60783481.eot"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-It-webfont.1aa29ac0f190.woff",
+                            "path": "fonts/SourceSansPro-It-webfont.1aa29ac0f190.woff"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-It-webfont.de7b20a876f9.ttf",
+                            "path": "fonts/SourceSansPro-It-webfont.de7b20a876f9.ttf"
+                        },
+                        {
+                            "url": "https://www.python.org/static/fonts/SourceSansPro-It-webfont.a389876db938.svg#source_sans_proitalic",
+                            "path": "images/SourceSansPro-It-webfont.a389876db938.svg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.python.org/static/stylesheets/mq.eef77a5d2257.css",
+                    "path": "css/mq.eef77a5d2257.css",
+                    "children": [
+                        {
+                            "url": "https://www.python.org/static/img/landing-about.e908feec18e7.png?1576869008",
+                            "path": "images/landing-about.e908feec18e7.png"
+                        },
+                        {
+                            "url": "https://www.python.org/static/img/landing-downloads.0f509c33f57f.png?1576869008",
+                            "path": "images/landing-downloads.0f509c33f57f.png"
+                        },
+                        {
+                            "url": "https://www.python.org/static/img/landing-docs.8af25927be37.png?1576869008",
+                            "path": "images/landing-docs.8af25927be37.png"
+                        },
+                        {
+                            "url": "https://www.python.org/static/img/landing-community.a9c31090c1c1.png?1576869008",
+                            "path": "images/landing-community.a9c31090c1c1.png"
+                        },
+                        {
+                            "url": "https://www.python.org/static/img/python-logo-large.c36dccadd999.png?1576869008",
+                            "path": "images/python-logo-large.c36dccadd999.png"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css",
+                    "path": "css/jquery-ui.css",
+                    "children": [
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png",
+                            "path": "images/ui-bg_highlight-soft_75_cccccc_1x100.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png",
+                            "path": "images/ui-bg_glass_75_e6e6e6_1x400.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png",
+                            "path": "images/ui-bg_glass_75_dadada_1x400.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png",
+                            "path": "images/ui-bg_glass_65_ffffff_1x400.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png",
+                            "path": "images/ui-bg_glass_55_fbf9ee_1x400.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png",
+                            "path": "images/ui-bg_glass_95_fef1ec_1x400.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-icons_222222_256x240.png",
+                            "path": "images/ui-icons_222222_256x240.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-icons_454545_256x240.png",
+                            "path": "images/ui-icons_454545_256x240.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-icons_2e83ff_256x240.png",
+                            "path": "images/ui-icons_2e83ff_256x240.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-icons_cd0a0a_256x240.png",
+                            "path": "images/ui-icons_cd0a0a_256x240.png"
+                        },
+                        {
+                            "url": "https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/images/ui-icons_888888_256x240.png",
+                            "path": "images/ui-icons_888888_256x240.png"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.python.org/static/favicon.ico",
+                    "path": "favicon.ico"
+                },
+                {
+                    "url": "https://www.python.org/static/apple-touch-icon-144x144-precomposed.png",
+                    "path": "images/apple-touch-icon-144x144-precomposed.png"
+                },
+                {
+                    "url": "https://www.python.org/static/apple-touch-icon-114x114-precomposed.png",
+                    "path": "images/apple-touch-icon-114x114-precomposed.png"
+                },
+                {
+                    "url": "https://www.python.org/static/apple-touch-icon-72x72-precomposed.png",
+                    "path": "images/apple-touch-icon-72x72-precomposed.png"
+                },
+                {
+                    "url": "https://www.python.org/static/apple-touch-icon-precomposed.png",
+                    "path": "images/apple-touch-icon-precomposed.png"
+                },
+                {
+                    "url": "https://www.python.org/static/opengraph-icon-200x200.png",
+                    "path": "images/opengraph-icon-200x200.png"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
